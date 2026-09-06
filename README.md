@@ -1,4 +1,4 @@
-SubViewportDecal is a Decal node that captures a SubViewport's rendered output and projects it's contents onto 3D surfaces as a Texture. 
+SubViewportDecal is a Decal node that captures a SubViewport's rendered output and projects its contents onto 3D surfaces as a Texture. 
 A few good use-case examples of this are:
 
 -Real-time 3D model Drop-Shadows
@@ -19,5 +19,5 @@ Allows in-editor updating!*
 <img width="663" height="712" alt="inspectorExample" src="https://github.com/user-attachments/assets/a7ab3bf2-96bc-47c9-b1ba-16778bc3e5c1" />
 
 
-*Real-time updating of the Decal's recieved SubViewport textures won't be shown without toggling "Update In Editor", to save memory.
+*Real-time updating of the Decal's recieved SubViewport textures won't be shown without toggling "Update In Editor", to reduce resource usage.
 SubViewport sizes larger than 512x512 may cause performance drops on weaker hardware
