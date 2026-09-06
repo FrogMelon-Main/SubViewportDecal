@@ -14,5 +14,10 @@ A few good use-case examples of this are:
 <img width="902" height="693" alt="live3Dprojection" src="https://github.com/user-attachments/assets/6b723802-fe37-4fe3-8578-6cd3a77d659f" />
 
 You can increase the Frame Break variable to lower the capture framerate (maximum framerate is 60 FPS)
-Allows in-editor updating!
+Allows in-editor updating!*
+
 <img width="663" height="712" alt="inspectorExample" src="https://github.com/user-attachments/assets/a7ab3bf2-96bc-47c9-b1ba-16778bc3e5c1" />
+
+
+*Real-time updating of the Decal's recieved SubViewport textures won't be shown without toggling "Update In Editor", to save memory.
+SubViewport sizes larger than 512x512 may cause performance drops on weaker hardware
